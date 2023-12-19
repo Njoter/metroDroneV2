@@ -1,0 +1,144 @@
+*{
+    -border-color-dark: "#232526";
+    -border-color-light: "#E8DAB5";
+
+    -bg-dark: "#232526";
+    -bg-light-grey: "#7A7576";
+    -fg-light: "#E8DAB5";
+    -fg-dark: "#B9AD94";
+    -aqua: "#74996E";
+    -blue: "#558286";
+    -yellow: "#CD9A3E";
+    -green: "#979537";
+    -red-dark: "#BA3E2C";
+    -red-light: "#fb4934";
+}
+
+.header {
+    -fx-background-color: -bg-dark;
+    -fx-font-size: 16;
+}
+
+.line {
+    -fx-fill: -bg-dark;
+}
+
+.display {
+    -fx-background-color: -bg-dark;
+    -fx-border-color: -border-color-light;
+    -fx-border-width: 2px;
+    -fx-alignment: center;
+}
+
+.plus-minus-display {
+    -fx-alignment: center;
+    -fx-spacing: 2;
+}
+
+.label-light {
+    -fx-text-fill: -fg-light;
+}
+
+.label-dark {
+    -fx-text-fill: -bg-dark;
+}
+
+.metronome-view {
+    -fx-background-color: -aqua;
+    -fx-border-color: -border-color-dark;
+    -fx-border-width: 3;
+    -fx-alignment: top-center;
+    -fx-spacing: 45;
+    -fx-padding: 15;
+}
+
+.chord-save-view {
+    -fx-background-color: -blue;
+    -fx-border-color: -border-color-dark;
+    -fx-border-width: 3 3 3 0;
+    -fx-alignment: top-center;
+    -fx-spacing: 45;
+    -fx-padding: 15;
+}
+
+.piano-roll-view {
+    -fx-background-color: -yellow;
+    -fx-border-color: -border-color-dark;
+    -fx-border-width: 3 3 3 0;
+    -fx-alignment: top-center;
+    -fx-spacing: 45;
+    -fx-padding: 15;
+}
+
+.piano-button {
+    -fx-min-height: 20px;
+    -fx-max-height: 20px;
+    -fx-font-size: 9;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: -bg-dark;
+}
+
+.bass-buttons-view {
+    -fx-background-color: -bg-dark;
+    -fx-alignment: center;
+    -fx-spacing: 10;
+    -fx-padding: 10 0 20 0;
+}
+
+.bass-buttons {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.bass-buttons > NoteToggleButton {
+    -fx-min-width: 50;
+    -fx-max-width: 50;
+    -fx-min-height: 40;
+    -fx-max-height: 40;
+}
+
+.chord-save-buttons {
+    -fx-alignment: center;
+}
+
+.sector {
+    -fx-alignment: center;
+    -fx-spacing: 15;
+}
+
+.button {
+   -fx-background-color: -bg-light-grey;
+   -fx-background-radius: 6px;
+   -fx-border-width: 2;
+   -fx-border-radius: 4px;
+   -fx-border-color: -bg-dark;
+   -fx-text-fill: -bg-dark;
+}
+
+.button: pressed {
+    -fx-background-color: -red-light;
+    -fx-border-color: -red-dark;
+    -fx-border-width: 2;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 4px;
+    -fx-text-fill: -bg-dark;
+}
+
+.toggle-button {
+   -fx-background-color: -bg-light-grey;
+   -fx-background-radius: 6px;
+   -fx-border-width: 2;
+   -fx-border-radius: 4px;
+   -fx-border-color: -bg-dark;
+   -fx-text-fill: -bg-dark;
+}
+.toggle-button:selected {
+    -fx-background-color: -red-light;
+    -fx-background-radius: 6px;
+    -fx-border-width: 2;
+    -fx-border-radius: 4px;
+    -fx-border-color: -red-dark;
+    -fx-text-fill: -bg-dark;
+}
